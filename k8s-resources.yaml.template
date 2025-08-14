@@ -14,7 +14,7 @@ spec:
         app: reduce-cpu-requests-webhook
     spec:
       containers:
-        - image: reduce-cpu-requests-webhook:latest
+        - image: ghcr.io/vitrvvivs/reduce-cpu-requests-webhook:latest
           imagePullPolicy: Never
           name: reduce-cpu-requests-webhook
           volumeMounts:
